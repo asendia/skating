@@ -1,4 +1,4 @@
-import { exec } from 'child_process';
+import { execSync } from 'child_process';
 import csv from 'csv-parser';
 import { createReadStream, writeFile } from 'fs';
 
@@ -75,31 +75,8 @@ createReadStream('./src/lib/data/product.csv')
 	});
 
 // Run convert_jpg_to_webp.sh to convert jpgs in folder ./src/lib/assets/product/details to webp
-exec('sh ./convert_jpg_to_webp.sh ./src/lib/assets/product/details', (error, stdout, stderr) => {
-	if (error) {
-		console.error(`Error executing script: ${error.message}`);
-		return;
-	}
-	if (stderr) {
-		console.error(`Script stderr: ${stderr}`);
-		return;
-	}
-	console.log(`Script output: ${stdout}`);
-
-	// Run create_thumnails.sh to create thumbnails from webp images
-	exec('sh ./create_thumbnails.sh ./src/lib/assets/product/details ./src/lib/assets/product/thumbs', (error, stdout, stderr) => {
-		if (error) {
-			console.error(`Error executing script: ${error.message}`);
-			return;
-		}
-		if (stderr) {
-			console.error(`Script stderr: ${stderr}`);
-			return;
-		}
-		console.log(`Script output: ${stdout}`);
-	});
-});
-
+execSync('sh ./convert_jpg_to_webp.sh ./src/lib/assets/product/details');
+execSync('sh ./create_thumbnails.sh ./src/lib/assets/product/details ./src/lib/assets/product/thumbs');
 
 function kebabCase(str) {
 	return (
