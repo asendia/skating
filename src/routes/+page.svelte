@@ -11,6 +11,19 @@
 	const title = 'Skating Indonesia';
 	const description =
 		'Welcome to Skating Indonesia, your ultimate destination for ice skating enthusiasts! Discover the best ice skating rinks, events, training programs, and a wide range of ice skating shoes, blades, and accessories across Indonesia.';
+
+	let showFullDescription: Record<string, boolean> = {};
+
+	function truncateDescription(description: string) {
+		if (description.length > 120) {
+			return description.slice(0, 120) + '...';
+		}
+		return description;
+	}
+
+	function toggleDescription(index: string) {
+		showFullDescription = { ...showFullDescription, [index]: !showFullDescription[index] };
+	}
 </script>
 
 <svelte:head>
@@ -65,7 +78,7 @@
 					class="list-none pb-3 mb-5 flex flex-col w-full md:w-[300px] bg-[#ffffff] md:rounded-md overflow-hidden md:mr-5 box-border md:border-gray-500 md:border dark:border-none dark:bg-[#0f151c] dark:rounded-tr-2xl dark:rounded-bl-2xl dark:rounded-tl-none dark:rounded-br-none"
 				>
 					<a
-						class="flex active:scale-95 transition-transform"
+						class="flex active:scale-95 transition-transform aspect-square relative"
 						href="/product/{urlHashFromName(item.brand + '-' + item.name)}"
 					>
 						<img
@@ -76,6 +89,7 @@
 							width="1000"
 							height="1000"
 							loading="lazy"
+							class="w-full h-full object-cover absolute top-0 left-0"
 						/></a
 					>
 					<div class="px-4 flex flex-col justify-end">
@@ -92,7 +106,23 @@
 							{/each}
 						</ul>
 						{#if item.description}
-							<div class="py-2 text-[#95979a] text-xs">{item.description}</div>
+							<div class="py-2 text-[#95979a] text-xs">
+								{#if showFullDescription[item.brand + '-' + item.name]}
+									{item.description}
+									<button
+										on:click={() => toggleDescription(item.brand + '-' + item.name)}
+										class="text-blue-500">(less)</button
+									>
+								{:else}
+									{truncateDescription(item.description)}
+									{#if item.description.length > 120}
+										<button
+											on:click={() => toggleDescription(item.brand + '-' + item.name)}
+											class="text-blue-500">(more)</button
+										>
+									{/if}
+								{/if}
+							</div>
 						{/if}
 					</div>
 				</li>
