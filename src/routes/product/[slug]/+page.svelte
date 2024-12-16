@@ -1,19 +1,21 @@
 <script lang="ts">
+	import { afterNavigate } from '$app/navigation';
+	import { base } from '$app/paths';
 	import { page } from '$app/state';
 	import { PUBLIC_PROTO_DOMAIN } from '$env/static/public';
 	import chevronLeft from '$lib/assets/chevron-left.svg';
 	import Footer from '$lib/components/Footer.svelte';
 	import Social from '$lib/components/Social.svelte';
 	import type { Product } from '$lib/productItems';
-	import { homeVisit } from '$lib/stores/homeVisit';
 	export let data: { product: Product };
 	export const product = data.product;
 	export const ogImageFullUrl = PUBLIC_PROTO_DOMAIN + product.photoHref;
 	const infoInline = product.info.join(', ');
 	export const descriptionWithInfo = product.description + ` (${infoInline})`;
-	export let hasVisitedHome = false;
-	homeVisit.subscribe((val) => {
-		hasVisitedHome = val;
+	let previousPage: string = base;
+
+	afterNavigate(({ from }) => {
+		previousPage = from?.url.pathname ?? previousPage;
 	});
 </script>
 
@@ -47,8 +49,10 @@
 	<a
 		href="/"
 		class="absolute block top-4 left-4 bg-white bg-opacity-90 active:scale-90 transition-transform rounded-full w-[30px] h-[30px] pt-[5px] pl-[4px] cursor-pointer"
-		on:click={() => {
-			if (hasVisitedHome) {
+		on:click={(e) => {
+			console.log({ previousPage, base });
+			if (previousPage === '/') {
+				e.preventDefault();
 				window.history.back();
 			}
 		}}

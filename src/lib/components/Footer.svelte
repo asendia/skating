@@ -8,7 +8,6 @@
 		let lastYPos = window.scrollY;
 		function handleScroll() {
 			const yPos = window.scrollY;
-			console.log(document.body.offsetHeight - yPos - window.innerHeight);
 			if (yPos < lastYPos && document.body.offsetHeight - yPos - window.innerHeight > 60) {
 				isFooterVisible = false;
 			} else {

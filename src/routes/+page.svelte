@@ -5,9 +5,7 @@
 	import Header from '$lib/components/Header.svelte';
 	import Social from '$lib/components/Social.svelte';
 	import productItems from '$lib/productItems';
-	import { homeVisit } from '$lib/stores/homeVisit';
 	import { urlHashFromName } from '$lib/url';
-	homeVisit.set(true);
 	export const ogImageFullUrl = PUBLIC_PROTO_DOMAIN + ogImage;
 
 	const title = 'Skating Indonesia';
