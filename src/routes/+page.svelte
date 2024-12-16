@@ -1,0 +1,107 @@
+<script lang="ts">
+	import { PUBLIC_PROTO_DOMAIN } from '$env/static/public';
+	import ogImage from '$lib/assets/og-image.jpg';
+	import Footer from '$lib/components/Footer.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import Social from '$lib/components/Social.svelte';
+	import productItems from '$lib/productItems';
+	import { homeVisit } from '$lib/stores/homeVisit';
+	import { urlHashFromName } from '$lib/url';
+	homeVisit.set(true);
+	export const prerender = true;
+	export const ogImageFullUrl = PUBLIC_PROTO_DOMAIN + ogImage;
+
+	const title = 'Skating Indonesia';
+	const description =
+		'Welcome to Skating Indonesia, your ultimate destination for ice skating enthusiasts! Discover the best ice skating rinks, events, training programs, and a wide range of ice skating shoes, blades, and accessories across Indonesia. Whether you are a beginner or a professional, we have something for everyone. Join our community and glide into the world of ice skating with us!';
+</script>
+
+<svelte:head>
+	<title>{title}</title>
+	<meta name="description" content={description} />
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
+	<meta property="og:type" content="food" />
+	<meta property="og:url" content={PUBLIC_PROTO_DOMAIN} />
+	<meta property="og:image" content={ogImageFullUrl} />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@skating.id" />
+	<meta name="twitter:creator" content="@skating.id" />
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:image" content={ogImageFullUrl} />
+	<link rel="canonical" href={PUBLIC_PROTO_DOMAIN} />
+	{#each productItems as cat, catID}
+		{#each cat.items as item, id}
+			{#if catID === 0 && item.thumbnailHref && id < 2}
+				<link
+					rel="preload"
+					as="image"
+					href={item.thumbnailHref}
+					imagesrcset={`${item.thumbnailHref}, ${item.photoHref} 2x`}
+				/>
+			{/if}
+		{/each}
+	{/each}
+</svelte:head>
+
+<Header {title}>
+	<span slot="description">
+		{#each description.split('. ') as d}
+			{d}<br />
+		{/each}
+	</span>
+</Header>
+
+<div class="flex flex-wrap px-5 w-[370px] lg:w-[580px] mx-auto justify-center">
+	<Social />
+</div>
+
+<div class="w-full mx-auto sm:w-[640px] lg:w-[960px] 2xl:w-[1280px]">
+	{#each productItems as cat}
+		<h2 class="text-center md:text-left text-2xl font-medium mt-3 mb-6">
+			{cat.name}
+		</h2>
+		<ul class="mb-7 flex flex-wrap">
+			{#each cat.items as item}
+				<li
+					class="list-none pb-3 mb-5 flex flex-col w-full md:w-[300px] bg-[#ffffff] md:rounded-md overflow-hidden md:mr-5 box-border md:border-gray-500 md:border dark:border-none dark:bg-[#0f151c] dark:rounded-tr-2xl dark:rounded-bl-2xl dark:rounded-tl-none dark:rounded-br-none"
+				>
+					<a
+						class="flex active:scale-95 transition-transform"
+						href="/product/{urlHashFromName(item.brand + '-' + item.name)}"
+					>
+						<img
+							title={item.name}
+							alt={item.name}
+							srcset={`${item.thumbnailHref}, ${item.photoHref} 2x`}
+							src={item.thumbnailHref}
+							width="1000"
+							height="1000"
+							loading="lazy"
+						/></a
+					>
+					<div class="px-4 flex flex-col justify-end">
+						<a
+							href="/product/{urlHashFromName(item.brand + '-' + item.name)}"
+							class="flex mt-2 outline-none"
+						>
+							{item.brand}
+							{item.name}
+						</a>
+						<ul class="flex mt-3 text-xs text-black dark:text-[#d5d6d7]">
+							{#each item.info as info}
+								<li class="mr-4 flex items-center">{info}</li>
+							{/each}
+						</ul>
+						{#if item.description}
+							<div class="py-2 text-[#95979a] text-xs">{item.description}</div>
+						{/if}
+					</div>
+				</li>
+			{/each}
+		</ul>
+	{/each}
+</div>
+
+<Footer />

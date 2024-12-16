@@ -1,0 +1,17 @@
+{
+	"short_name": "Skating.id",
+	"name": "Skating Indonesia",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "logo-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"background_color": "#2c2c2c",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#2c2c2c",
+	"description": "Your ultimate destination for ice skating enthusiasts"
+}
