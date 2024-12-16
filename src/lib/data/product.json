@@ -280,9 +280,471 @@
           "290"
         ],
         "info": [
-          "IDR 10,000,000"
+          "IDR 9,500,000"
         ],
-        "description": "The sophisticated black variant of the Royal Prime adds elegance to technical excellence. Features include a high-density ankle support system, premium moisture-wicking liner, and Risport's exclusive heel lock technology. The boot's reinforced structure excels in maintaining stability during complex jumping combinations."
+        "description": "The Royal Prime in classic white exemplifies Italian craftsmanship with modern performance features. Its advanced composite construction provides excellent response for competitive elements while maintaining optimal temperature regulation. The anatomical last ensures precise fit with special attention to arch support and heel lock."
+      },
+      {
+        "name": "Rf1 Elite White",
+        "brand": "Risport",
+        "sizes": [
+          "180",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 8,200,000"
+        ],
+        "description": "The emblem of years of Risport tradition, has been redesign! The new RF 1 ELITE, with the highest quality leather, is made for those figure skating at a professional and competitive level."
+      },
+      {
+        "name": "Rf1 Elite Black",
+        "brand": "Risport",
+        "sizes": [
+          "180",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 8,200,000"
+        ],
+        "description": "The emblem of years of Risport tradition, has been redesign! The new RF 1 ELITE, with the highest quality leather, is made for those figure skating at a professional and competitive level."
+      },
+      {
+        "name": "Royal Pro White",
+        "brand": "Risport",
+        "sizes": [
+          "180",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 6,200,000"
+        ],
+        "description": "Made with light materials and a high technological content (microfibre) that make it the lightest skate on the market today, it proudly reflects the aesthetic lines of the Dance model that has graced the winners’ podiums at the World Championships and the Olympics."
+      },
+      {
+        "name": "Royal Pro Black",
+        "brand": "Risport",
+        "sizes": [
+          "180",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 6,200,000"
+        ],
+        "description": "Made with light materials and a high technological content (microfibre) that make it the lightest skate on the market today, it proudly reflects the aesthetic lines of the Dance model that has graced the winners’ podiums at the World Championships and the Olympics."
+      },
+      {
+        "name": "Rf3 Pro White",
+        "brand": "Risport",
+        "sizes": [
+          "181",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 6,000,000"
+        ],
+        "description": "Introducing the new RF 3 PRO with some aesthetic news (same shape), designed to bring all the features of the RF 1 ELITE model to young professionals. This skate supports their professional and physical growth, offering exceptional comfort and high-level performance."
+      },
+      {
+        "name": "Rf3 Pro Black",
+        "brand": "Risport",
+        "sizes": [
+          "181",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 6,000,000"
+        ],
+        "description": "Introducing the new RF 3 PRO with some aesthetic news (same shape), designed to bring all the features of the RF 1 ELITE model to young professionals. This skate supports their professional and physical growth, offering exceptional comfort and high-level performance."
+      },
+      {
+        "name": "Dance Prime White",
+        "brand": "Risport",
+        "sizes": [
+          "180",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 10,200,000"
+        ],
+        "description": "Dance Prime is the brand-new model created by Risport that meets the needs of all high-level athletes, guaranteeing them the best performance."
+      },
+      {
+        "name": "Dance Prime Black",
+        "brand": "Risport",
+        "sizes": [
+          "180",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 10,200,000"
+        ],
+        "description": "Dance Prime is the brand-new model created by Risport that meets the needs of all high-level athletes, guaranteeing them the best performance."
+      },
+      {
+        "name": "Turchese White",
+        "brand": "Risport",
+        "sizes": [
+          "180",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 5,300,000"
+        ],
+        "description": "This is Risport’s entry-level model for dance, made with natural materials that can guarantee excellent performance in this discipline. It is designed for dance and group athletes who are beginning to approach the speciality professionally."
+      },
+      {
+        "name": "Turchese Black",
+        "brand": "Risport",
+        "sizes": [
+          "180",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 5,300,000"
+        ],
+        "description": "This is Risport’s entry-level model for dance, made with natural materials that can guarantee excellent performance in this discipline. It is designed for dance and group athletes who are beginning to approach the speciality professionally."
+      },
+      {
+        "name": "Electra White",
+        "brand": "Risport",
+        "sizes": [
+          "181",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 4,200,000"
+        ],
+        "description": "We are thrilled to announce the redesign of one of our Risport’s best sellers: the new Electra Light is now available!"
+      },
+      {
+        "name": "Electra Black",
+        "brand": "Risport",
+        "sizes": [
+          "181",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 4,200,000"
+        ],
+        "description": "We are thrilled to announce the redesign of one of our Risport’s best sellers: the new Electra Light is now available!"
+      },
+      {
+        "name": "Antares White",
+        "brand": "Risport",
+        "sizes": [
+          "182",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 3,700,000"
+        ],
+        "description": "The ideal model for all young skaters who are improving their technique and want to make a greater commitment by tackling their first single jumps, and for amateurs who want to get serious."
+      },
+      {
+        "name": "Antares Black",
+        "brand": "Risport",
+        "sizes": [
+          "182",
+          "185",
+          "190",
+          "195",
+          "200",
+          "205",
+          "210",
+          "215",
+          "220",
+          "225",
+          "230",
+          "235",
+          "240",
+          "245",
+          "250",
+          "255",
+          "260",
+          "265",
+          "270",
+          "275",
+          "280",
+          "285",
+          "290"
+        ],
+        "info": [
+          "IDR 3,700,000"
+        ],
+        "description": "The ideal model for all young skaters who are improving their technique and want to make a greater commitment by tackling their first single jumps, and for amateurs who want to get serious."
       }
     ],
     "itemIdsWithImages": []
@@ -291,157 +753,169 @@
     "name": "Blades",
     "items": [
       {
-        "name": "Rotation",
-        "brand": "Edea",
+        "name": "Gold Seal Revolution",
+        "brand": "John Wilson",
         "sizes": [
-          "8",
-          "8.25",
-          "8.5",
-          "8.75",
-          "9",
-          "9.25",
-          "9.5",
-          "9.75",
-          "10",
-          "10.25",
-          "10.5",
-          "10.75",
-          "11",
-          "11.25",
-          "11.5",
-          "11.75",
-          "12",
-          "12.25",
-          "12.5",
-          "12.75",
-          "13",
-          "13.25",
-          "13.5",
-          "13.75",
-          "14",
-          "14.25",
-          "14.5",
-          "14.75",
-          "15",
-          "15.25",
-          "15.5",
-          "15.75",
-          "16",
-          "16.25",
-          "16.5",
-          "16.75",
-          "17",
-          "17.25",
-          "17.5",
-          "17.75",
-          "18",
-          "18.25",
-          "18.5",
-          "18.75",
-          "19",
-          "19.25",
-          "19.5",
-          "19.75",
-          "20",
-          "20.25",
-          "20.5",
-          "20.75",
-          "21",
-          "21.25",
-          "21.5",
-          "21.75",
-          "22",
-          "22.25",
-          "22.5",
-          "22.75",
-          "23",
-          "23.25",
-          "23.5",
-          "23.75",
-          "24",
-          "24.25",
-          "24.5",
-          "24.75",
-          "25",
-          "25.25",
-          "25.5",
-          "25.75",
-          "26",
-          "26.25",
-          "26.5",
-          "26.75",
-          "27",
-          "27.25",
-          "27.5",
-          "27.75",
-          "28",
-          "28.25",
-          "28.5",
-          "28.75",
-          "29",
-          "29.25",
-          "29.5",
-          "29.75",
-          "30",
-          "30.25",
-          "30.5",
-          "30.75",
-          "31",
-          "31.25",
-          "31.5",
-          "31.75",
-          "32",
-          "32.25",
-          "32.5",
-          "32.75",
-          "33",
-          "33.25",
-          "33.5",
-          "33.75",
-          "34",
-          "34.25",
-          "34.5",
-          "34.75",
-          "35",
-          "35.25",
-          "35.5",
-          "35.75",
-          "36",
-          "36.25",
-          "36.5",
-          "36.75",
-          "37",
-          "37.25",
-          "37.5",
-          "37.75",
-          "38",
-          "38.25",
-          "38.5",
-          "38.75",
-          "39",
-          "39.25",
-          "39.5",
-          "39.75",
-          "40",
-          "40.25",
-          "40.5",
-          "40.75",
-          "41",
-          "41.25",
-          "41.5",
-          "41.75",
-          "42",
-          "42.25",
-          "42.5",
-          "42.75",
-          "43",
-          "43.25",
-          "43"
+          "8''-11''"
         ],
         "info": [
-          "IDR 7,500,000"
+          "IDR 14,800,000"
         ],
-        "description": "Engineered for elite performance, the Rotation blade features precision-crafted stainless steel with optimal weight distribution. The innovative rocker profile enhances edge control and spin velocity, while the specialized serration pattern provides superior grip during takeoffs. Generous sweet spot allows for confident edge work and stable landings."
+        "description": "The Gold Seal Revolution retains all the qualities of the traditional blade but now benefits from carbon fibre technology with extra flexibility and weight reduction. The new benchmark for free skaters is here."
+      },
+      {
+        "name": "Pattern 99 Revolution",
+        "brand": "John Wilson",
+        "sizes": [
+          "8''-11''"
+        ],
+        "info": [
+          "IDR 14,800,000"
+        ],
+        "description": "The Pattern 99 Revolution is what happens when you let time-honoured craftsmen take the highest quality blade and fuse it with carbon fibre technology. The result is without comparison - this is simply the finest lightweight precision blade on the planet."
+      },
+      {
+        "name": "Gold Seal",
+        "brand": "John Wilson",
+        "sizes": [
+          "8''-11''"
+        ],
+        "info": [
+          "IDR 10,700,000"
+        ],
+        "description": "The Gold Seal won more Olympic medals than any other model at PyeongChang 2018. Coincidence? We think not. Perhaps the most widely recommended blade by Russian coaches, this blade delivers for freestyle and pairs skaters seeking an optimal spinning experience. Due to its higher heel stanchion, unique compound radius and tapered/hollow ground features, skaters report experiencing effortless spins and control in their footwork sequences and edge jumps. Trusted and worn by Evgenia Medvedeva."
+      },
+      {
+        "name": "Pattern 99",
+        "brand": "John Wilson",
+        "sizes": [
+          "8''-11''"
+        ],
+        "info": [
+          "IDR 10,700,000"
+        ],
+        "description": "The Pattern 99 blade is no stranger to the podium. It is one of the most popular profiles in the world as it consistently delivers maximum performance to high-end freestyle skaters. The primary 8 ft radius works wonderfully for skaters who use the Pattern 99’s tapered top toe pick for precision toe spotting on explosive jumps. This blade is ‘the real McCoy’ – it’s not comparable to anything, it’s not similar to anything, it’s the original. If you’re emerging as an elite level skater with powerful jumps and seek more control by being lower to the ice, this blade is undoubtedly your best option in our range."
+      },
+      {
+        "name": "Coronation Ace Lite",
+        "brand": "John Wilson",
+        "sizes": [
+          "8''-11''"
+        ],
+        "info": [
+          "IDR 6,000,000"
+        ],
+        "description": "Based on the most popular developmental blade in the World. The Coronation Ace Lite will help develop skills up to double lutz, utilising the same 7ft rocker profile and coarse cross-cut tooth configuration as the traditional Coronation Ace but with the added benefit of a thinner blade allowing for quicker change of edge and improved glide. It also features new ‘Tuff’ plates that are lighter and 2X as strong as traditional options. The modern design of the Coronation Ace Lite was inspired by the ground-breaking and record-setting results of the Carbon fibre Revolution series"
+      },
+      {
+        "name": "Coronation Ace",
+        "brand": "John Wilson",
+        "sizes": [
+          "8''-11''"
+        ],
+        "info": [
+          "IDR 5,500,000"
+        ],
+        "description": "No other blade on the market can match the legendary performance and value of this fantastic blade. A skater moving up in skill will appreciate the responsiveness of the 7 ft rocker profile and, due to its coarse cross-cut tooth configuration, this option is highly recommended by international coaches for its reliability when learning new components. It is precision hardened to offer a strong skating edge and was used by many Olympic, World and National Champions early in their careers. If you are leaving a boot/blade combination set and plan on developing your axel and double jumps, this is our recommended option."
+      },
+      {
+        "name": "Coronation Dance",
+        "brand": "John Wilson",
+        "sizes": [
+          "8''-11''"
+        ],
+        "info": [
+          "IDR 5,500,000"
+        ],
+        "description": "The Coronation Dance is John Wilson’s premier dance and synchronized skating option. This blade has a shorter heel to avoid clashing during Mohawks and Choctaws and will also eliminate any unnecessary trip-ups while synchro teams perform in tight formations. The coarse cross-cut picks are widely popular and are identical to the Coronation Ace toe picks which give this blade a lot of versatility as the demands of both dance and synchronized skating continue to develop."
+      },
+      {
+        "name": "Professional",
+        "brand": "MK",
+        "sizes": [
+          "7''-12''"
+        ],
+        "info": [
+          "IDR 5,700,000"
+        ],
+        "description": "he MK Professional is widely acclaimed for its balance, performance and style. A parallel sided blade, the Professional is the premier choice of coaches around the world for their experienced freestyle students who are working on their axel up to the double lutz jump.The elongated 7 ft rocker profile has minimal blade contact with the ice while performing spins, allowing you to create less friction for a faster and longer spin."
+      },
+      {
+        "name": "Professional Lite",
+        "brand": "MK",
+        "sizes": [
+          "8''-11''"
+        ],
+        "info": [
+          "IDR 6,100,000"
+        ],
+        "description": "The Professional Lite is the recommended choice from coaches around the world for skaters developing skills up to double lutz. Mirroring the lightweight carbon fibre Revolution series, the Professional Lite design offers a high-performance aesthetic aimed at future champions. We’ve thinned down the runner to allow for quicker edge change and improved glide while keeping the trusty 7ft rocker profile and cross-cut picks you love. It also features our new ‘Tuff’ plate design which is lighter and 2X as strong as traditional options."
+      },
+      {
+        "name": "Dance",
+        "brand": "MK",
+        "sizes": [
+          "8''-12''"
+        ],
+        "info": [
+          "IDR 10,500,000"
+        ],
+        "description": "When it comes to dance blades, look no further than the podiums to make an educated decision. At Pyeongchang 2018, 85% of allOlympic Ice Dance athletes used the MK Dance for its slimline design, allowing the skater to move from one edge to the other much quicker. Essentially, the unique configuration of this blade allows skaters the advantage of employing less body lean to change their edges.It is because of this that the Dance is also worn by the world’s elite synchronized skating teams. This is the choice of champions."
+      },
+      {
+        "name": "Matrix Nova",
+        "brand": "Jackson Ultima",
+        "sizes": [
+          "71/2''-11''"
+        ],
+        "info": [
+          "IDR 10,700,000"
+        ],
+        "description": "Maintaining the features of our Matrix blade that make it the best blade on the market, including a lightweight Aircraft Grade aluminum chassis, extremely strong Japanese AUS8 Stainless Steel runner, and superior edge control with a tapered edge, you can now replace the runners in a matter of seconds!"
+      },
+      {
+        "name": "Matrix Supreme",
+        "brand": "Jackson Ultima",
+        "sizes": [
+          "71/2''-11''"
+        ],
+        "info": [
+          "IDR 10,700,000"
+        ],
+        "description": "Maintaining the features of our Matrix blade that make it the best blade on the market, including a lightweight Aircraft Grade aluminum chassis, extremely strong Japanese AUS8 Stainless Steel runner, and superior edge control with a tapered edge, you can now replace the runners in a matter of seconds!"
+      },
+      {
+        "name": "Matrix Freestyle",
+        "brand": "Jackson Ultima",
+        "sizes": [
+          "71/2''-11''"
+        ],
+        "info": [
+          "IDR 10,700,000"
+        ],
+        "description": "Maintaining the features of our Matrix blade that make it the best blade on the market, including a lightweight Aircraft Grade aluminum chassis, extremely strong Japanese AUS8 Stainless Steel runner, and superior edge control with a tapered edge, you can now replace the runners in a matter of seconds!"
+      },
+      {
+        "name": "Matrix Elite",
+        "brand": "Jackson Ultima",
+        "sizes": [
+          "71/2''-11''"
+        ],
+        "info": [
+          "IDR 10,700,000"
+        ],
+        "description": "Maintaining the features of our Matrix blade that make it the best blade on the market, including a lightweight Aircraft Grade aluminum chassis, extremely strong Japanese AUS8 Stainless Steel runner, and superior edge control with a tapered edge, you can now replace the runners in a matter of seconds!"
+      },
+      {
+        "name": "Matrix Legacy",
+        "brand": "Jackson Ultima",
+        "sizes": [
+          "71/2''-11''"
+        ],
+        "info": [
+          "IDR 10,700,000"
+        ],
+        "description": "Maintaining the features of our Matrix blade that make it the best blade on the market, including a lightweight Aircraft Grade aluminum chassis, extremely strong Japanese AUS8 Stainless Steel runner, and superior edge control with a tapered edge, you can now replace the runners in a matter of seconds!"
       }
     ],
     "itemIdsWithImages": []

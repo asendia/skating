@@ -80,8 +80,8 @@ createReadStream('./src/lib/data/product.csv')
 		});
 	});
 
-// Run convert_jpg_to_webp.sh to convert jpgs in folder ./src/lib/assets/product/details to webp
-execSync('sh ./convert_jpg_to_webp.sh ./src/lib/assets/product/details');
+// Run convert_img_to_webp.sh to convert jpgs and pngs in folder ./src/lib/assets/product/details to webp
+execSync('sh ./convert_img_to_webp.sh ./src/lib/assets/product/details');
 execSync('sh ./create_thumbnails.sh ./src/lib/assets/product/details ./src/lib/assets/product/thumbs');
 
 function kebabCase(str) {
