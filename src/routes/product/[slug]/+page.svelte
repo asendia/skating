@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { PUBLIC_PROTO_DOMAIN } from '$env/static/public';
 	import chevronLeft from '$lib/assets/chevron-left.svg';
 	import Footer from '$lib/components/Footer.svelte';
@@ -11,7 +11,6 @@
 	export const ogImageFullUrl = PUBLIC_PROTO_DOMAIN + product.photoHref;
 	const infoInline = product.info.join(', ');
 	export const descriptionWithInfo = product.description + ` (${infoInline})`;
-	export const prerender = true;
 	export let hasVisitedHome = false;
 	homeVisit.subscribe((val) => {
 		hasVisitedHome = val;
@@ -32,12 +31,11 @@
 	<meta name="twitter:title" content={product.name} />
 	<meta name="twitter:description" content={descriptionWithInfo} />
 	<meta name="twitter:image" content={ogImageFullUrl} />
-	<link rel="canonical" href={PUBLIC_PROTO_DOMAIN + $page.url.pathname} />
+	<link rel="canonical" href={PUBLIC_PROTO_DOMAIN + page.url.pathname} />
 </svelte:head>
 
 <div class="w-full md:max-w-[600px] 2xl:max-w-[800px] mx-auto relative">
 	<img
-		layout="responsive"
 		class="lg:rounded-lg"
 		src={product.photoHref}
 		title={product.name}

@@ -8,7 +8,6 @@
 	import { homeVisit } from '$lib/stores/homeVisit';
 	import { urlHashFromName } from '$lib/url';
 	homeVisit.set(true);
-	export const prerender = true;
 	export const ogImageFullUrl = PUBLIC_PROTO_DOMAIN + ogImage;
 
 	const title = 'Skating Indonesia';
