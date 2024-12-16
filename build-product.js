@@ -4,6 +4,12 @@ import { createReadStream, writeFile } from 'fs';
 
 let products = [];
 
+const numFmt = new Intl.NumberFormat('en-US', {
+	currency: 'IDR',
+	minimumFractionDigits: 0,
+	maximumFractionDigits: 0
+});
+
 createReadStream('./src/lib/data/product.csv')
 	.pipe(csv())
 	.on('data', (row) => {
@@ -19,7 +25,7 @@ createReadStream('./src/lib/data/product.csv')
 				brand: row.Brand.trim(),
 				sizes: row.Sizes.trim().split(' ').map((size) => size.trim()),
 				info: [
-					`IDR ${row.Price}`
+					`IDR ${numFmt.format(Number(row.Price))}`
 				],
 				description: row.Description
 			};

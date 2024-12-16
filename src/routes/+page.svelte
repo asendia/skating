@@ -13,7 +13,7 @@
 
 	const title = 'Skating Indonesia';
 	const description =
-		'Welcome to Skating Indonesia, your ultimate destination for ice skating enthusiasts! Discover the best ice skating rinks, events, training programs, and a wide range of ice skating shoes, blades, and accessories across Indonesia. Whether you are a beginner or a professional, we have something for everyone. Join our community and glide into the world of ice skating with us!';
+		'Welcome to Skating Indonesia, your ultimate destination for ice skating enthusiasts! Discover the best ice skating rinks, events, training programs, and a wide range of ice skating shoes, blades, and accessories across Indonesia.';
 </script>
 
 <svelte:head>
