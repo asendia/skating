@@ -8,9 +8,9 @@
 	import { urlHashFromName } from '$lib/url';
 	export const ogImageFullUrl = PUBLIC_PROTO_DOMAIN + ogImage;
 
-	const title = 'Skating Indonesia';
+	const title = 'Skating ID';
 	const description =
-		'Welcome to Skating Indonesia, your ultimate destination for ice skating enthusiasts! Discover the best ice skating rinks, events, training programs, and a wide range of ice skating shoes, blades, and accessories across Indonesia.';
+		'Welcome to Skating ID, your ultimate destination for ice skating enthusiasts! Discover the best ice skating rinks, events, training programs, and a wide range of ice skating shoes, blades, and accessories across Indonesia.';
 
 	let showFullDescription: Record<string, boolean> = {};
 

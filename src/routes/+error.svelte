@@ -37,7 +37,7 @@
 </script>
 
 <svelte:head>
-	<title>Skating Indonesia - {status}</title>
+	<title>Skating ID - {status}</title>
 	<link rel="canonical" href="https://skating.id/error" />
 	<meta name="robots" content="noindex" />
 </svelte:head>

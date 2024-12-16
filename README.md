@@ -1,4 +1,4 @@
-# Skating Indonesia (skating.id)
+# Skating ID
 [![Netlify Status](https://api.netlify.com/api/v1/badges/599eecad-58fd-453f-9b21-130e4b9713f5/deploy-status)](https://app.netlify.com/sites/skatingindonesia/deploys)
 
 Frontend code of [skating.id](https://skating.id)
