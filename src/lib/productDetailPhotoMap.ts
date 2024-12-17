@@ -35,9 +35,9 @@ import imgJacksonUltimaMatrixSupreme from '$lib/assets/product/details/jackson-u
 import imgJacksonUltimaMatrixFreestyle from '$lib/assets/product/details/jackson-ultima-matrix-freestyle.webp';
 import imgJacksonUltimaMatrixElite from '$lib/assets/product/details/jackson-ultima-matrix-elite.webp';
 import imgJacksonUltimaMatrixLegacy from '$lib/assets/product/details/jackson-ultima-matrix-legacy.webp';
-import imgEdeaEGuards from '$lib/assets/product/details/edea-e-guards.webp';
-import imgEdeaGloves from '$lib/assets/product/details/edea-gloves.webp';
-import imgEdeaJacquard from '$lib/assets/product/details/edea-jacquard.webp';
+import imgEdeaEGuardsBasic from '$lib/assets/product/details/edea-e-guards-basic.webp';
+import imgEdeaEGlovesAntiCut from '$lib/assets/product/details/edea-e-gloves-anti-cut.webp';
+import imgEdeaPolish from '$lib/assets/product/details/edea-polish.webp';
 
 
 const productDetailPhotoMap = {
@@ -78,9 +78,9 @@ const productDetailPhotoMap = {
 	'jackson-ultima-matrix-freestyle': imgJacksonUltimaMatrixFreestyle,
 	'jackson-ultima-matrix-elite': imgJacksonUltimaMatrixElite,
 	'jackson-ultima-matrix-legacy': imgJacksonUltimaMatrixLegacy,
-	'edea-e-guards': imgEdeaEGuards,
-	'edea-gloves': imgEdeaGloves,
-	'edea-jacquard': imgEdeaJacquard,
+	'edea-e-guards-basic': imgEdeaEGuardsBasic,
+	'edea-e-gloves-anti-cut': imgEdeaEGlovesAntiCut,
+	'edea-polish': imgEdeaPolish,
 };
 
 export default productDetailPhotoMap;

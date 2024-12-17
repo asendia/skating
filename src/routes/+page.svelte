@@ -72,13 +72,13 @@
 		<h2 class="text-center md:text-left text-2xl font-medium mt-3 mb-6">
 			{cat.name}
 		</h2>
-		<ul class="mb-7 flex flex-wrap">
+		<ul class="mb-7 flex flex-wrap px-2">
 			{#each cat.items as item}
 				<li
-					class="list-none pb-3 mb-5 flex flex-col w-full md:w-[300px] bg-[#ffffff] md:rounded-md overflow-hidden md:mr-5 box-border md:border-gray-500 md:border dark:border-none dark:bg-[#0f151c] dark:rounded-tr-2xl dark:rounded-bl-2xl dark:rounded-tl-none dark:rounded-br-none"
+					class="list-none pb-3 mb-5 flex flex-col w-[50%] px-2 md:w-[300px] overflow-hidden md:mr-5 box-border md:border-gray-500 md:border dark:border-none"
 				>
 					<a
-						class="flex active:scale-95 transition-transform aspect-square relative"
+						class="flex active:scale-95 transition-transform aspect-square relative dark:bg-white rounded-md"
 						href="/product/{urlHashFromName(item.brand + '-' + item.name)}"
 					>
 						<img
@@ -89,9 +89,9 @@
 							width="1000"
 							height="1000"
 							loading="lazy"
-							class="w-full h-full object-cover absolute top-0 left-0"
-						/></a
-					>
+							class="w-full h-full object-contain absolute top-0 left-0"
+						/>
+					</a>
 					<div class="px-4 flex flex-col justify-end">
 						<a
 							href="/product/{urlHashFromName(item.brand + '-' + item.name)}"

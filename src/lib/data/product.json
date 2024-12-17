@@ -921,30 +921,10 @@
     "itemIdsWithImages": []
   },
   {
-    "name": "Blade Guards",
+    "name": "Accessories",
     "items": [
       {
-        "name": "E-Guards",
-        "brand": "Edea",
-        "sizes": [
-          "One",
-          "size",
-          "fits",
-          "all"
-        ],
-        "info": [
-          "IDR 500,000"
-        ],
-        "description": "Premium blade protection featuring high-density rubber compound with reinforced toe and heel sections. The ergonomic design ensures easy application while providing complete blade coverage. Anti-slip texture prevents walking accidents and includes ventilation channels to prevent moisture buildup."
-      }
-    ],
-    "itemIdsWithImages": []
-  },
-  {
-    "name": "Gloves",
-    "items": [
-      {
-        "name": "Gloves",
+        "name": "E-Guards Basic",
         "brand": "Edea",
         "sizes": [
           "Small",
@@ -952,29 +932,35 @@
           "Large"
         ],
         "info": [
-          "IDR 250,000"
+          "IDR 800,000"
         ],
-        "description": "Professional-grade skating gloves combining thermal insulation with tactile sensitivity. Features reinforced palms for spin positions, touchscreen-compatible fingertips, and elastic wrist bands for secure fit. The breathable membrane maintains optimal hand temperature while preventing moisture accumulation."
-      }
-    ],
-    "itemIdsWithImages": []
-  },
-  {
-    "name": "Accessories",
-    "items": [
+        "description": "No fiddling, no parts, simply snap on and walk off! The rubberized material and design means they fit any blade type."
+      },
       {
-        "name": "Jacquard",
+        "name": "E-gloves Anti Cut",
         "brand": "Edea",
         "sizes": [
-          "One",
-          "size",
-          "fits",
-          "all"
+          "Small",
+          "Medium",
+          "Large"
         ],
         "info": [
-          "IDR 1,000,000"
+          "IDR 1,100,000"
         ],
-        "description": "Premium skate bag featuring durable jacquard fabric with waterproof coating. Includes separate compartments for boots and accessories, ventilated blade storage, and padded shoulder strap. The specialized design incorporates quick-access pockets and protective reinforcement in high-wear areas."
+        "description": "The first cut-resistant glove specifically designed for figure skating! They are made with a special anti-cut material on palm and fingers to protect your hands."
+      },
+      {
+        "name": "Polish",
+        "brand": "Edea",
+        "sizes": [
+          "Black",
+          "Ivory",
+          "White"
+        ],
+        "info": [
+          "IDR 330,000"
+        ],
+        "description": "Liquid water based polish, easy to use, simply brush on and leave to dry. Covers scratches, scuffs and marks leaving boots like new."
       }
     ],
     "itemIdsWithImages": []
