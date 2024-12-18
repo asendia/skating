@@ -72,13 +72,13 @@
 		<h2 class="text-center md:text-left text-2xl font-medium mt-3 mb-6">
 			{cat.name}
 		</h2>
-		<ul class="mb-7 flex flex-wrap px-2">
+		<ul class="mb-7 flex flex-wrap md:justify-between px-2 md:px-0">
 			{#each cat.items as item}
 				<li
-					class="list-none pb-3 mb-5 flex flex-col w-[50%] px-2 md:w-[300px] overflow-hidden md:mr-5 box-border md:border-gray-500 md:border dark:border-none"
+					class="list-none pb-3 mb-5 flex flex-col w-[50%] px-2 md:mx-0 md:w-[300px] overflow-hidden box-border"
 				>
 					<a
-						class="flex active:scale-95 transition-transform aspect-square relative dark:bg-white rounded-md"
+						class="flex active:scale-95 transition-transform aspect-square relative dark:bg-white rounded-md border"
 						href="/product/{urlHashFromName(item.brand + '-' + item.name)}"
 					>
 						<img
@@ -92,10 +92,10 @@
 							class="w-full h-full object-contain absolute top-0 left-0"
 						/>
 					</a>
-					<div class="px-4 flex flex-col justify-end">
+					<div class="flex flex-col justify-end">
 						<a
 							href="/product/{urlHashFromName(item.brand + '-' + item.name)}"
-							class="flex mt-2 outline-none"
+							class="flex mt-2 outline-none text-brand underline"
 						>
 							{item.brand}
 							{item.name}
@@ -111,14 +111,14 @@
 									{item.description}
 									<button
 										on:click={() => toggleDescription(item.brand + '-' + item.name)}
-										class="text-blue-500">(less)</button
+										class="text-brand">(less)</button
 									>
 								{:else}
 									{truncateDescription(item.description)}
 									{#if item.description.length > 120}
 										<button
 											on:click={() => toggleDescription(item.brand + '-' + item.name)}
-											class="text-blue-500">(more)</button
+											class="text-brand">(more)</button
 										>
 									{/if}
 								{/if}
